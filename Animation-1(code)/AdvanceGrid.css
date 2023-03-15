@@ -1,0 +1,17 @@
+.container{
+    height: 700px;
+    border: 2px solid red;
+    background-color: yellow;
+    display: grid;
+    gap: 10px;
+   
+    grid-auto-rows: minmax(100px, auto);    /*We don't know the how many number of column are ther so we use this property with mimax() function which set the minimum and maximum size of the column*/
+    grid-template-columns: repeat(4,1fr);
+
+    /*In this property you can generate the  number of rows when unknown number of rows are there  */
+}
+ 
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+}

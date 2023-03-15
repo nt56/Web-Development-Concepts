@@ -1,0 +1,54 @@
+.container{
+    height: 700px;
+    width: 600px;
+    border: 2px solid brown;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    /* gap: 10px; */
+    background-color: aqua;
+
+
+    /*below properties follows horizontal axis of parent element*/
+    /* justify-content: start;     Your content will placed on left side of page */
+    /* justify-content: end;       Your content will placed on right side of page */
+    /* justify-content: center;    Your content will placed in center of page */
+    /* justify-content: space-between;     space between middle content but not first and last content */
+    /* justify-content: space-around;      space between all content */
+    /* justify-content: space-evenly;      space between all content with equally */
+
+    /*below properties follows vertical axis of parent element*/
+    /* align-items: start;     content will placed in top */
+    /* align-items: end;           content will placed at bottom */
+    /* align-items: baseline;      depends on positioning of content */
+    /* align-items: stretch;       it takes all space of cell  it is default*/
+
+    /* align-content: space-between;   gap between rows */
+    /* align-content: space-evenly;    gap between space rows are evenly */
+    /* align-content: space-around; */
+
+    /* place-content: center;      it is defination of both justy content and align content 'center' */
+
+    /* place-items: center;            it is defination of both justy items and align items 'center */
+
+    /* content ------> only it can move the box by position one to another */
+    /* items ------> only it affect the width and height of the box */
+    /* self ----> it it only for specific box */
+}
+
+.box{
+    border: 1px solid red;
+    background-color: yellow;
+}
+
+#box-1{
+    /*below properties used for grid items*/
+    /*Below three properties applies on horizontal access*/
+    /* justify-self: start; 
+    justify-self: end;
+    justify-self: center; */
+
+    /*Below three properties applies on vertical access*/
+    /* align-self: stretch;
+    align-self: center; */
+}

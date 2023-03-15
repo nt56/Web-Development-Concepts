@@ -1,0 +1,33 @@
+.MyDiv {
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+}
+
+#p1 {
+    position: relative;
+    color: red;
+    top: 0px;
+}
+
+#p2 {
+    position: relative;
+    color: green;
+    left: 450px;
+}
+
+#p3 {
+    position: relative;
+    color: blue;
+    top: 290px;
+}
+
+#p4 {
+    color: orange;
+    
+}
+
+/* #p5 {
+    color: pink;
+    padding-left: 10px;
+}  */
